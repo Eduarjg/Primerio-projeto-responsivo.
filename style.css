@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    width: 200vh;
+    height: 100vh;
+}
+
+.conteiner-leff {
+    display: inline-block;
+    width: 60%;
+    height: 100vh;
+}
+
+.conteiner-rieth {
+    position: absolute;
+    display: inline-block;
+    width: 43.5%;
+    height: 100vh;
+    background-color: rgba(0, 153, 255, 0.4);
+}
+
+img {
+    top: 17%;
+    position: absolute;
+    right: 233px;
+    width: 400px;
+
+}
+
+header {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 15px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: rgba(12, 12, 12, 0.3);
+}
+
+header:hover {
+    cursor: pointer;
+}
+
+h1 {
+    position: relative;
+    color: rgba(93, 93, 125, 1);
+    width: 500px;
+    height: 180px;
+    font-size: 70px;
+    margin-top: 200px;
+    padding: 15px;
+}
+
+p {
+    color: rgba(93, 93, 125, .6);
+    font-size: 24px;
+    width: 500px;
+    text-align: justify;
+    padding: 0 25px;
+}
+
+button {
+    width: 180px;
+    height: 40px;
+    position: relative;
+    left: 20%;
+    top: 25px;
+    border: none;
+    border-radius: 18px;
+    color: rgba(0, 153, 255, 0.4);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 153, 255, 0.4);
+    color: #fff;
+}
+
+@media screen and (max-width: 750px) {
+    h1 {
+        color: rgba(93, 93, 125, 1);
+        width: 300px;
+        font-size: 50px;
+        padding: 15px;
+        bottom: 49px;
+        left: -1px;
+        margin: 40px;
+    }
+
+
+    .conteiner {
+        width: auto;
+        height: 100%;
+    }
+
+    .conteiner-leff {
+        height: 30%;
+        display: block;
+        position: relative;
+        bottom: 25%;
+        text-align: center;
+    }
+
+    .conteiner-rieth {
+        height: 50%;
+        display: block;
+        width: auto;
+    }
+
+    p {
+        font-size: 15px;
+        width: 300px;
+        position: relative;
+        bottom: 70px;
+        left: 37px;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        top: 266px;
+        left: 90px;
+    }
+
+
+
+    img {
+        width: 190px;
+        bottom: 93px;
+        left: 68px;
+        top: 0;
+    }
+
+
+header {
+    display: block;
+    position: relative;
+    top: 239px;
+}
+
+
+}
